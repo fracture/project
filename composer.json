@@ -1,0 +1,25 @@
+{
+    "name": "fracture/project",
+    "type": "project",
+    "homepage": "https://github.com/fracture/routing",
+    "description": "Blank project template based on Fracture PHP framework",
+    "license": "BSD",
+
+    "authors": [
+        {
+        "name": "Mārtiņš Tereško",
+        "email": "martins.teresko@gmail.com",
+        "role": "Creator / Lead Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "fracture/routing": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+
+}

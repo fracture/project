@@ -1,0 +1,25 @@
+{
+
+    "main": {
+        "notation": ":resource[/:action[/:id]]",
+        "conditions": {
+            "id"      : "[0-9]+"
+        },
+        "defaults": {
+            "resource"  :   "site",
+            "action"    :   "main"
+        }
+    },
+
+    "fallback": {
+        "notation": "[:any]",
+        "conditions": {
+            "any"      : ".*"
+        },
+        "defaults": {
+            "resource"  :   "site",
+            "action"    :   "main"
+        }
+    }
+
+}
