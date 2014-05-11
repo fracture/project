@@ -15,7 +15,8 @@
 
     "require": {
         "php": ">=5.4.0",
-        "fracture/routing": "dev-master"
+        "fracture/routing": "dev-master",
+        "fracture/http": "dev-master"
     },
 
     "autoload": {
